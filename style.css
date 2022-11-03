@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 2rem 2rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,.5);
+    background:black;
+}
+.navbar  .navbar-brand{
+    font: size 20px; 
+    font-weight: 800;
+    color: white !important;
+
+}
+#navbarSupportedContent a{
+    color:floralwhite;
+    border-bottom: 2px solid transparent;
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid white;
+}
+#navbarSupportedContent button{
+    background: burlywood;
+    border-radius: 5px;
+}
+section{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HOME */
+
+#home{
+    background: url(IMG_3526.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 70px;
+    color:white;
+    letter-spacing: 3px;
+    
+}
+#home p{
+    font-size: 18px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background: burlywood !important;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0,.3;
+}
+
+#about{
+    background: palevioletred;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+#lists{
+    background: url(IMG_3526.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
